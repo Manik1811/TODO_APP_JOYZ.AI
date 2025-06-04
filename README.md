@@ -44,10 +44,10 @@ The app is built with customization in mind. You can easily modify:
 ## Setup Instructions
 
 Clone the repository:
-git clone https://github.com/Manik1811/TODO_APP_JOYZ.AI.git
-cd TODO_APP_JOYZ.AI
+-git clone https://github.com/Manik1811/TODO_APP_JOYZ.AI.git
+-cd TODO_APP_JOYZ.AI
 Deploy link
-https://poushali-todoapp-taskvibe.netlify.app/
+-https://poushali-todoapp-taskvibe.netlify.app/
 
 ## Getting Started
 
