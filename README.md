@@ -22,12 +22,6 @@ TaskVibe is a beautifully designed, feature-rich Todo application that showcases
 - **Lucide React**: For beautiful, customizable icons
 - **Vite**: For fast development and optimized builds
 
-## Getting Started
-
-1. Clone the repository
-2. Install dependencies with `npm install`
-3. Start the development server with `npm run dev`
-4. Open your browser to the URL displayed in the terminal
 
 ## Usage
 
@@ -46,4 +40,19 @@ The app is built with customization in mind. You can easily modify:
 - Color schemes in the Tailwind configuration
 - Animation parameters in the Framer Motion components
 - Rich text editor options in the RichTextEditor component
+
+## Setup Instructions
+
+Clone the repository:
+git clone https://github.com/Manik1811/TODO_APP_JOYZ.AI.git
+cd TODO_APP_JOYZ.AI
+Deploy link
+https://poushali-todoapp-taskvibe.netlify.app/
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies with `npm install`
+3. Start the development server with `npm run dev`
+4. Open your browser to the URL displayed in the terminal
 
