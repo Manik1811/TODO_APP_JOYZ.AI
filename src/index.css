@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body.dark {
+  @apply bg-gray-900 text-white;
+}
+
+body.light {
+  @apply bg-gray-50 text-gray-900;
+}
+
+/* Hide default cursor when custom cursor is active */
+@media (min-width: 768px) {
+  * {
+    cursor: none !important;
+  }
+}
+
+/* Quill editor theme overrides */
+.ql-toolbar.ql-snow {
+  @apply rounded-t-lg border-gray-300;
+}
+
+.ql-container.ql-snow {
+  @apply rounded-b-lg border-gray-300;
+}
+
+.dark .ql-toolbar.ql-snow {
+  @apply border-gray-700 bg-gray-800;
+}
+
+.dark .ql-container.ql-snow {
+  @apply border-gray-700 bg-gray-800 text-white;
+}
+
+.dark .ql-editor.ql-blank::before {
+  @apply text-gray-500;
+}
+
+.dark .ql-snow .ql-stroke {
+  @apply stroke-gray-400;
+}
+
+.dark .ql-snow .ql-fill {
+  @apply fill-gray-400;
+}
+
+.dark .ql-snow .ql-picker {
+  @apply text-gray-400;
+}
+
+/* Animation classes */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 5s ease-in-out infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 rounded-full;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  @apply bg-gray-700;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-500;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-600;
+}
